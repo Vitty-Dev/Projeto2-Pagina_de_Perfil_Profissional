@@ -3,67 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitty Dev | Perfil</title>
+    <title>Vitty Eduarda | Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 </head>
 <body>
 
+    <!-- HEADER / NAV -->
     <header class="header">
         <div class="container">
-            <h1 class="logo">Vitty Dev</h1>
+            <h1 class="logo">Vitty Eduarda</h1>
             <nav>
                 <a href="#sobre">Sobre</a>
                 <a href="#skills">Skills</a>
+                <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
 
+    <!-- HERO -->
     <section class="hero">
         <div class="container hero-content">
-            <div>
+            <div class="hero-text">
                 <h2>Desenvolvedora Front-End</h2>
-                <p>
-                    Estudante de tecnologia apaixonada por criar interfaces modernas,
-                    funcionais e organizadas.
-                </p>
-                <a href="#contato" class="btn">Fale comigo</a>
+                <p>Transformo ideias em interfaces modernas e funcionais. Sempre aprendendo e evoluindo com projetos reais.</p>
+                <a href="#contato" class="btn">Fale comigo <i class="fas fa-paper-plane"></i></a>
+            </div>
+            <div class="hero-img">
+                <img src="https://i.ibb.co/2n3cD6g/perfil.png" alt="Vitty Eduarda">
             </div>
         </div>
     </section>
 
+    <!-- SOBRE -->
     <section id="sobre" class="section">
-        <div class="container">
+        <div class="container sobre-container">
             <h2>Sobre Mim</h2>
-            <p>
-                Sou desenvolvedora em formação com foco em HTML, CSS e JavaScript.
-                Busco evoluir constantemente criando projetos práticos e funcionais.
-            </p>
+            <div class="sobre-content">
+                <p>
+                    Olá! Sou estudante de Sistemas com foco em desenvolvimento front-end. Apaixonada por criar projetos interativos, limpos e funcionais. 
+                    Sempre buscando melhorar minhas habilidades em HTML, CSS, JavaScript e boas práticas de design.
+                </p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Criação de interfaces responsivas</li>
+                    <li><i class="fas fa-check-circle"></i> Boas práticas em HTML, CSS e JS</li>
+                    <li><i class="fas fa-check-circle"></i> Projetos reais e portfólio online</li>
+                    <li><i class="fas fa-check-circle"></i> Git, GitHub e versionamento de código</li>
+                </ul>
+            </div>
         </div>
     </section>
 
+    <!-- SKILLS -->
     <section id="skills" class="section alt">
         <div class="container">
             <h2>Minhas Skills</h2>
             <div class="skills">
-                <div class="card">HTML5</div>
-                <div class="card">CSS3</div>
-                <div class="card">JavaScript</div>
-                <div class="card">Git & GitHub</div>
+                <div class="card"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="card"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="card"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="card"><i class="fab fa-github"></i> Git & GitHub</div>
+                <div class="card"><i class="fas fa-database"></i> Conceitos de Banco de Dados</div>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="section">
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
         <div class="container">
-            <h2>Contato</h2>
-            <p>Email: seuemail@email.com</p>
-            <p>GitHub: github.com/Vitty-Dev</p>
+            <h2>Projetos</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Calculadora Moderna</h3>
+                    <p>Calculadora interativa feita com HTML, CSS e JavaScript.</p>
+                    <a href="https://vitty-dev.github.io/Projeto-1---calculadora-b-sica-HTML/" target="_blank" class="btn">Ver Projeto</a>
+                </div>
+                <!-- Adicione mais cards de projetos aqui -->
+            </div>
         </div>
     </section>
 
+    <!-- CONTATO -->
+    <section id="contato" class="section alt">
+        <div class="container contato-container">
+            <h2>Contato</h2>
+            <p>📧 Email: <a href="mailto:vitoria.eduardasdo@gmail.com">vitoria.eduardasdo@gmail.com</a></p>
+            <p>💻 GitHub: <a href="https://github.com/Vitty-Dev" target="_blank">github.com/Vitty-Dev</a></p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
-        <p>© 2026 Vitty Dev. Todos os direitos reservados.</p>
+        <p>© 2026 Vitty Eduarda. Todos os direitos reservados.</p>
     </footer>
 
 </body>
