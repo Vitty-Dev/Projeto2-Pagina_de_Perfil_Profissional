@@ -3,97 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitty Dev | Portfólio</title>
+    <title>Vitty | Dev - Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- HEADER / NAV -->
     <header class="header">
-        <div class="container">
-            <h1 class="logo">Vitty Eduarda</h1>
+        <div class="container nav-container">
+            <h1 class="logo">Vitty<span> | Dev</span></h1>
             <nav>
-                <a href="#sobre">Sobre</a>
-                <a href="#skills">Skills</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#contato">Contato</a>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h2>Desenvolvedora Front-End</h2>
-                <p>Transformo ideias em interfaces modernas e funcionais. Sempre aprendendo e evoluindo com projetos reais.</p>
-                <a href="#contato" class="btn">Fale comigo <i class="fas fa-paper-plane"></i></a>
-            </div>
-            <div class="hero-img">
-                <img src="https://i.ibb.co/2n3cD6g/perfil.png" alt="Vitty Eduarda">
-            </div>
-        </div>
-    </section>
-
-    <!-- SOBRE -->
-    <section id="sobre" class="section">
-        <div class="container sobre-container">
-            <h2>Sobre Mim</h2>
-            <div class="sobre-content">
-                <p>
-                    Olá! Sou estudante de engenharia de software co métodos agéis, com foco em desenvolvimento front-end. Apaixonada por criar projetos interativos, limpos e funcionais. 
-                    Sempre buscando melhorar minhas habilidades em HTML, CSS, JavaScript e boas práticas de design.
-                </p>
-                <ul>
-                    <li><i class="fas fa-check-circle"></i> Criação de interfaces responsivas</li>
-                    <li><i class="fas fa-check-circle"></i> Boas práticas em HTML, CSS e JS</li>
-                    <li><i class="fas fa-check-circle"></i> Projetos reais e portfólio online</li>
-                    <li><i class="fas fa-check-circle"></i> Git, GitHub e versionamento de código</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section alt">
-        <div class="container">
-            <h2>Minhas Skills</h2>
-            <div class="skills">
-                <div class="card"><i class="fab fa-html5"></i> HTML5</div>
-                <div class="card"><i class="fab fa-css3-alt"></i> CSS3</div>
-                <div class="card"><i class="fab fa-js"></i> JavaScript</div>
-                <div class="card"><i class="fab fa-github"></i> Git & GitHub</div>
-                <div class="card"><i class="fas fa-database"></i> Conceitos de Banco de Dados</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PROJETOS -->
-    <section id="projetos" class="section">
-        <div class="container">
-            <h2>Projetos</h2>
-            <div class="projects">
-                <div class="project-card">
-                    <h3>Calculadora Moderna</h3>
-                    <p>Calculadora interativa feita com HTML, CSS e JavaScript.</p>
-                    <a href="https://vitty-dev.github.io/Projeto-1---calculadora-b-sica-HTML/" target="_blank" class="btn">Ver Projeto</a>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="badge">Disponível para novos projetos</span>
+                    <h2>Desenvolvedora <span class="highlight">Front-End</span></h2>
+                    <p>Transformo ideias em interfaces modernas e funcionais. Sempre aprendendo e evoluindo com projetos reais.</p>
+                    <div class="hero-btns">
+                        <a href="#contato" class="btn primary">Fale comigo <i class="fas fa-paper-plane"></i></a>
+                        <a href="https://github.com/Vitty-Dev" target="_blank" class="btn secondary">GitHub <i class="fab fa-github"></i></a>
+                    </div>
                 </div>
-                <!-- Adicione mais cards de projetos aqui -->
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- CONTATO -->
-    <section id="contato" class="section alt">
-        <div class="container contato-container">
-            <h2>Contato</h2>
-            <p>📧 Email: <a href="mailto:vitoria.eduardasdo@gmail.com">vitoria.eduardasdo@gmail.com</a></p>
-            <p>💻 GitHub: <a href="https://github.com/Vitty-Dev" target="_blank">github.com/Vitty-Dev</a></p>
-        </div>
-    </section>
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Quem sou</span>
+                    <h2>Sobre Mim</h2>
+                </div>
+                <div class="sobre-grid">
+                    <div class="sobre-text">
+                        <p>
+                            Olá! Sou estudante de <strong>Engenharia de Software com foco em Métodos Ágeis</strong> e apaixonada por desenvolvimento front-end. 
+                            Busco criar projetos interativos, limpos e funcionais, sempre aplicando boas práticas de design e clean code.
+                        </p>
+                        <div class="sobre-list">
+                            <div class="list-item"><i class="fas fa-rocket"></i> Interfaces Responsivas</div>
+                            <div class="list-item"><i class="fas fa-code"></i> Clean Code & Semântica</div>
+                            <div class="list-item"><i class="fas fa-bolt"></i> Métodos Ágeis (Scrum/Kanban)</div>
+                            <div class="list-item"><i class="fas fa-layer-group"></i> Versionamento com Git</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- FOOTER -->
+        <section id="skills" class="section alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Habilidades</span>
+                    <h2>Tecnologias</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fab fa-html5"></i> <span>HTML5</span></div>
+                    <div class="skill-card"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
+                    <div class="skill-card"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+                    <div class="skill-card"><i class="fab fa-github"></i> <span>Git & GitHub</span></div>
+                    <div class="skill-card"><i class="fas fa-terminal"></i> <span>Eng. Software</span></div>
+                    <div class="skill-card"><i class="fas fa-database"></i> <span>SQL</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Portfólio</span>
+                    <h2>Projetos Recentes</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>Calculadora Moderna</h3>
+                            <p>Interface interativa focada em UX com manipulação de DOM e lógica matemática.</p>
+                            <div class="tags">
+                                <span>JS</span>
+                                <span>CSS Grid</span>
+                            </div>
+                            <a href="https://vitty-dev.github.io/Projeto-1---calculadora-b-sica-HTML/" target="_blank" class="btn-link">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section alt">
+            <div class="container">
+                <div class="contact-card">
+                    <h2>Vamos criar algo incrível?</h2>
+                    <p>Estou em busca de oportunidades para aplicar meus conhecimentos em Engenharia de Software.</p>
+                    <div class="contact-links">
+                        <a href="mailto:vitoria.eduardasdo@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i> vitoria.eduardasdo@gmail.com
+                        </a>
+                        <a href="https://github.com/Vitty-Dev" target="_blank" class="contact-item">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <p>© 2026 Vitty Dev. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>© 2026 Vitty | Dev. Construído com <i class="fas fa-heart" style="color: #38bdf8;"></i></p>
+        </div>
     </footer>
 
 </body>
