@@ -1,10 +1,10 @@
-# 🚀 Vitty | Dev - Portfólio Pessoal
+# Vitty | Dev - Portfólio Pessoal
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para centralizar minha trajetória na **Engenharia de Software**, meus projetos de desenvolvimento front-end e minhas habilidades técnicas.
 
 ---
 
-## 👨‍💻 Sobre Mim
+## Sobre Mim
 Olá! Sou **Vitória**, estudante de Engenharia de Software apaixonada por transformar ideias em interfaces modernas, limpas e funcionais. Meu foco atual é o desenvolvimento front-end, aplicando boas práticas de design e métricas de desempenho.
 
 - 🎓 Graduanda em **Engenharia de Software com foco em Métodos Ágeis**.
@@ -13,7 +13,7 @@ Olá! Sou **Vitória**, estudante de Engenharia de Software apaixonada por trans
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 As principais tecnologias utilizadas neste portfólio e em meus projetos:
 
 - **Linguagens:** HTML5, CSS3, JavaScript.
@@ -23,9 +23,9 @@ As principais tecnologias utilizadas neste portfólio e em meus projetos:
 
 ---
 
-## 📂 Projetos em Destaque
+## Projetos em Destaque
 
-### 🧮 Calculadora Moderna
+### Calculadora Moderna
 Uma calculadora interativa com foco em experiência do usuário e lógica de programação.
 - **Tech Stack:** HTML, CSS, JavaScript.
 - **Link:** [Ver Projeto](https://vitty-dev.github.io/Projeto1-calculadora_basica/)
